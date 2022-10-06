@@ -1,0 +1,13 @@
+.four {
+  background: #0b2429;
+  display: block;
+  overflow: hidden;
+}
+
+.four-content {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 140px 140px 0 0;
+  border-color: #f3ac3c transparent;
+}

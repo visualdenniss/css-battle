@@ -1,0 +1,28 @@
+.five {
+  background: #293d7e;
+  position: relative;
+}
+
+.five-content {
+  width: 150px;
+  height: 150px;
+  border: 20px solid #6e91ca;
+  border-bottom: 0;
+  border-radius: 90q 90q 0 0;
+}
+
+.five-container {
+  height: 150px;
+  position: relative;
+}
+
+.headphones {
+  background: #6e91ca;
+  width: 60px;
+  height: 80px;
+  border-radius: 0 20q 20q 30q;
+  position: absolute;
+  top: 70%;
+  left: 0%;
+  -webkit-box-reflect: right 30px;
+}

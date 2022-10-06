@@ -1,0 +1,30 @@
+.thirteen {
+  background: #623060;
+  display: block;
+  overflow: hidden;
+}
+
+.thirteen > div {
+  width: 100%;
+  height: 50px;
+  background: #f7ec7d;
+}
+
+.thirteen > div:before,
+.thirteen > div:after {
+  content: "";
+  display: block;
+  width: 100%;
+}
+
+.thirteen > div:before {
+  height: 50px;
+  background: #e38f66;
+  transform: translateY(100%);
+}
+
+.thirteen > div:after {
+  height: 100px;
+  background: #aa445f;
+  transform: translateY(50%);
+}

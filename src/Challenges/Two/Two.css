@@ -1,0 +1,38 @@
+.two {
+  background-color: #e3516e;
+}
+
+.main {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.green,
+.yellow,
+.white,
+.pinky {
+  width: 50%;
+  height: 50%;
+}
+
+.green {
+  background-color: #51b5a9;
+  border-radius: 100% 0 0 0;
+}
+
+.yellow {
+  background-color: #fade8b;
+  border-radius: 0 100% 0 0;
+}
+
+.white {
+  background-color: #f7f3d7;
+  border-radius: 0 0 0 100%;
+}
+
+.pinky {
+  background-color: none;
+  border-radius: 0 0 100% 0;
+}

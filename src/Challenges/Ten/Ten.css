@@ -1,0 +1,40 @@
+.ten {
+  background: #623060;
+  position: relative;
+  display: block;
+}
+
+.ten > div {
+  width: 100px;
+  height: 150px;
+  border-radius: 100px;
+  position: absolute;
+}
+
+.ten > div:before {
+  content: "";
+  width: 100px;
+  height: 100px;
+  background: #f7ec7d;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.ten > div:nth-of-type(1) {
+  background: #aa445f;
+  top: 50px;
+  right: 50%;
+  transform: translateX(-20px);
+}
+
+.ten > div:nth-of-type(1):before {
+  bottom: 0;
+  border-radius: 50%;
+}
+
+.ten > div:nth-of-type(2) {
+  background: #e38f66;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(20px);
+}

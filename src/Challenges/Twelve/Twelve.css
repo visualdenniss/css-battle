@@ -1,0 +1,43 @@
+.twelve {
+  background: #191919;
+  position: relative;
+}
+
+.twelve > div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50px, -50px);
+  -webkit-box-reflect: below 120px;
+}
+
+.twelve > div > p {
+  margin: 0;
+  border: 10px solid #5dbcf9;
+  width: 50px;
+  height: 50px;
+  border-radius: 50% 50% 0;
+  position: absolute;
+  -webkit-box-reflect: right 20px;
+}
+
+.twelve > div > p:before,
+.twelve > div > p:after {
+  content: "";
+  position: absolute;
+  background: #5dbcf9;
+}
+
+.twelve > div > p:before {
+  width: 10px;
+  height: 25px;
+  right: -10px;
+  bottom: -25px;
+}
+
+.twelve > div > p:after {
+  width: 20px;
+  height: 10px;
+  right: -25px;
+  bottom: -10px;
+}

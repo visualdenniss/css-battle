@@ -1,0 +1,69 @@
+.one {
+  background-color: #191919;
+}
+
+.eyes-container {
+  display: flex;
+  margin: 20% 0;
+  justify-content: center;
+}
+
+.eye {
+  width: 110px;
+  height: 110px;
+  background: #e08027;
+  box-sizing: unset;
+}
+
+.left {
+  border-radius: 0 100% 100% 100%;
+  margin-right: -19px;
+}
+
+.right {
+  border-radius: 100% 0 100% 100%;
+  border: 10px solid #191919;
+  margin-top: -10px;
+}
+
+.right,
+.left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.eyeball {
+  width: 90px;
+  height: 90px;
+  border-radius: 100%;
+  background-color: #191919;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nose {
+  width: 40px;
+  height: 50px;
+  background-color: #e08027;
+  position: absolute;
+  bottom: -25px;
+  right: -10px;
+  transform: rotate(135deg);
+}
+
+.iris-container {
+  overflow: hidden;
+  transform: translateY(-25%);
+}
+
+.iris {
+  width: 10px;
+  height: 10px;
+  border: 10px solid #e08027;
+  border-radius: 50px;
+  transform: translateY(50%);
+  box-sizing: unset;
+}

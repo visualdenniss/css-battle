@@ -1,0 +1,48 @@
+.nineteen {
+  background: #191919;
+  display: flex;
+  margin: 0;
+  padding: 0 0 90px 0px;
+}
+
+.nineteen > ::before,
+.nineteen > ::after {
+  content: "";
+  position: absolute;
+  background-color: currentColor;
+}
+
+.nineteen > p {
+  width: 50px;
+  height: 40px;
+  color: #fe5f55;
+  background: currentColor;
+  border-radius: 50%;
+  margin: auto 10px 0;
+  position: relative;
+}
+
+.nineteen > p::before {
+  width: 10px;
+  height: 100px;
+  right: 0;
+  bottom: 20px;
+}
+
+.nineteen > p::after {
+  width: 30px;
+  height: 10px;
+  right: -30px;
+  top: -80px;
+}
+
+.nineteen > p:nth-child(2)::after {
+  right: 0;
+  width: 50px;
+}
+.nineteen > p:nth-child(3) {
+  color: #a64942;
+}
+.nineteen > p:nth-child(4)::after {
+  -webkit-box-reflect: below 10px;
+}

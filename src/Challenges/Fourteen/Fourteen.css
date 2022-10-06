@@ -1,0 +1,38 @@
+.fourteen {
+  background: #d25870;
+  display: block;
+  position: relative;
+}
+
+.fourteen > div {
+  width: 100px;
+  height: 100px;
+  background: #f7f3da;
+  position: absolute;
+  left: 50%;
+  bottom: 50px;
+  transform: translateX(-50%);
+}
+
+.fourteen > div::before,
+.fourteen > div::after {
+  content: "";
+  position: absolute;
+}
+
+.fourteen > div::before {
+  width: 60px;
+  height: 60px;
+  background: #6cb3a9;
+  transform-origin: 0 0;
+  transform: rotate(-143deg);
+}
+
+.fourteen > div::after {
+  width: 80px;
+  height: 80px;
+  background: #f6df96;
+  right: 0;
+  transform-origin: 100% 0;
+  transform: rotate(127deg);
+}

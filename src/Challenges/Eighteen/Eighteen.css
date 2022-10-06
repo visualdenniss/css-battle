@@ -1,0 +1,15 @@
+.eighteen {
+  background: #aa445f;
+}
+
+.eighteen > div {
+  width: 250px;
+  height: 200px;
+  background: linear-gradient(
+    to right,
+    #f7ec7d 100px,
+    #aa445f 100px 150px,
+    #e38f66 150px
+  );
+  border-radius: 100px;
+}
